@@ -33,13 +33,18 @@ Partial Class Form1
         Me.lblScoreO = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.btn12 = New System.Windows.Forms.Button()
-        Me.btn13 = New System.Windows.Forms.Button()
         Me.btn23 = New System.Windows.Forms.Button()
         Me.btn22 = New System.Windows.Forms.Button()
         Me.btn21 = New System.Windows.Forms.Button()
         Me.btn33 = New System.Windows.Forms.Button()
         Me.btn32 = New System.Windows.Forms.Button()
         Me.btn31 = New System.Windows.Forms.Button()
+        Me.ScoreX = New System.Windows.Forms.Label()
+        Me.ScoreO = New System.Windows.Forms.Label()
+        Me.btn13 = New System.Windows.Forms.Button()
+        Me.lblRound1 = New System.Windows.Forms.Label()
+        Me.lblGiliran1 = New System.Windows.Forms.Label()
+        Me.lblTime = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lblRound
@@ -119,28 +124,23 @@ Partial Class Form1
         Me.lblScoreO.TabIndex = 15
         Me.lblScoreO.Text = "Score Pemain O :"
         '
+        'Timer1
+        '
+        Me.Timer1.Interval = 1000
+        '
         'btn12
         '
         Me.btn12.Font = New System.Drawing.Font("Microsoft Sans Serif", 79.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn12.Location = New System.Drawing.Point(172, 95)
+        Me.btn12.Location = New System.Drawing.Point(173, 95)
         Me.btn12.Name = "btn12"
         Me.btn12.Size = New System.Drawing.Size(152, 157)
         Me.btn12.TabIndex = 16
         Me.btn12.UseVisualStyleBackColor = True
         '
-        'btn13
-        '
-        Me.btn13.Font = New System.Drawing.Font("Microsoft Sans Serif", 79.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn13.Location = New System.Drawing.Point(322, 95)
-        Me.btn13.Name = "btn13"
-        Me.btn13.Size = New System.Drawing.Size(152, 157)
-        Me.btn13.TabIndex = 17
-        Me.btn13.UseVisualStyleBackColor = True
-        '
         'btn23
         '
         Me.btn23.Font = New System.Drawing.Font("Microsoft Sans Serif", 79.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn23.Location = New System.Drawing.Point(322, 250)
+        Me.btn23.Location = New System.Drawing.Point(324, 251)
         Me.btn23.Name = "btn23"
         Me.btn23.Size = New System.Drawing.Size(152, 157)
         Me.btn23.TabIndex = 20
@@ -149,7 +149,7 @@ Partial Class Form1
         'btn22
         '
         Me.btn22.Font = New System.Drawing.Font("Microsoft Sans Serif", 79.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn22.Location = New System.Drawing.Point(172, 250)
+        Me.btn22.Location = New System.Drawing.Point(173, 251)
         Me.btn22.Name = "btn22"
         Me.btn22.Size = New System.Drawing.Size(152, 157)
         Me.btn22.TabIndex = 19
@@ -158,7 +158,7 @@ Partial Class Form1
         'btn21
         '
         Me.btn21.Font = New System.Drawing.Font("Microsoft Sans Serif", 79.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn21.Location = New System.Drawing.Point(22, 250)
+        Me.btn21.Location = New System.Drawing.Point(22, 251)
         Me.btn21.Name = "btn21"
         Me.btn21.Size = New System.Drawing.Size(152, 157)
         Me.btn21.TabIndex = 18
@@ -167,7 +167,7 @@ Partial Class Form1
         'btn33
         '
         Me.btn33.Font = New System.Drawing.Font("Microsoft Sans Serif", 79.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn33.Location = New System.Drawing.Point(322, 405)
+        Me.btn33.Location = New System.Drawing.Point(324, 407)
         Me.btn33.Name = "btn33"
         Me.btn33.Size = New System.Drawing.Size(152, 157)
         Me.btn33.TabIndex = 23
@@ -176,7 +176,7 @@ Partial Class Form1
         'btn32
         '
         Me.btn32.Font = New System.Drawing.Font("Microsoft Sans Serif", 79.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn32.Location = New System.Drawing.Point(172, 405)
+        Me.btn32.Location = New System.Drawing.Point(173, 407)
         Me.btn32.Name = "btn32"
         Me.btn32.Size = New System.Drawing.Size(152, 157)
         Me.btn32.TabIndex = 22
@@ -185,17 +185,81 @@ Partial Class Form1
         'btn31
         '
         Me.btn31.Font = New System.Drawing.Font("Microsoft Sans Serif", 79.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn31.Location = New System.Drawing.Point(22, 405)
+        Me.btn31.Location = New System.Drawing.Point(22, 407)
         Me.btn31.Name = "btn31"
         Me.btn31.Size = New System.Drawing.Size(152, 157)
         Me.btn31.TabIndex = 21
         Me.btn31.UseVisualStyleBackColor = True
+        '
+        'ScoreX
+        '
+        Me.ScoreX.AutoSize = True
+        Me.ScoreX.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ScoreX.Location = New System.Drawing.Point(733, 337)
+        Me.ScoreX.Name = "ScoreX"
+        Me.ScoreX.Size = New System.Drawing.Size(27, 29)
+        Me.ScoreX.TabIndex = 24
+        Me.ScoreX.Text = "0"
+        '
+        'ScoreO
+        '
+        Me.ScoreO.AutoSize = True
+        Me.ScoreO.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ScoreO.Location = New System.Drawing.Point(733, 392)
+        Me.ScoreO.Name = "ScoreO"
+        Me.ScoreO.Size = New System.Drawing.Size(27, 29)
+        Me.ScoreO.TabIndex = 25
+        Me.ScoreO.Text = "0"
+        '
+        'btn13
+        '
+        Me.btn13.Font = New System.Drawing.Font("Microsoft Sans Serif", 79.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn13.Location = New System.Drawing.Point(324, 95)
+        Me.btn13.Name = "btn13"
+        Me.btn13.Size = New System.Drawing.Size(152, 157)
+        Me.btn13.TabIndex = 17
+        Me.btn13.UseVisualStyleBackColor = True
+        '
+        'lblRound1
+        '
+        Me.lblRound1.AutoSize = True
+        Me.lblRound1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!)
+        Me.lblRound1.Location = New System.Drawing.Point(502, 25)
+        Me.lblRound1.Name = "lblRound1"
+        Me.lblRound1.Size = New System.Drawing.Size(36, 39)
+        Me.lblRound1.TabIndex = 26
+        Me.lblRound1.Text = "0"
+        '
+        'lblGiliran1
+        '
+        Me.lblGiliran1.AutoSize = True
+        Me.lblGiliran1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblGiliran1.Location = New System.Drawing.Point(547, 214)
+        Me.lblGiliran1.Name = "lblGiliran1"
+        Me.lblGiliran1.Size = New System.Drawing.Size(30, 29)
+        Me.lblGiliran1.TabIndex = 27
+        Me.lblGiliran1.Text = "X"
+        '
+        'lblTime
+        '
+        Me.lblTime.AutoSize = True
+        Me.lblTime.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTime.Location = New System.Drawing.Point(777, 214)
+        Me.lblTime.Name = "lblTime"
+        Me.lblTime.Size = New System.Drawing.Size(41, 29)
+        Me.lblTime.TabIndex = 28
+        Me.lblTime.Text = "10"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(962, 582)
+        Me.Controls.Add(Me.lblTime)
+        Me.Controls.Add(Me.lblGiliran1)
+        Me.Controls.Add(Me.lblRound1)
+        Me.Controls.Add(Me.ScoreO)
+        Me.Controls.Add(Me.ScoreX)
         Me.Controls.Add(Me.btn33)
         Me.Controls.Add(Me.btn32)
         Me.Controls.Add(Me.btn31)
@@ -229,11 +293,16 @@ Partial Class Form1
     Friend WithEvents lblScoreO As Label
     Friend WithEvents Timer1 As Timer
     Friend WithEvents btn12 As Button
-    Friend WithEvents btn13 As Button
     Friend WithEvents btn23 As Button
     Friend WithEvents btn22 As Button
     Friend WithEvents btn21 As Button
     Friend WithEvents btn33 As Button
     Friend WithEvents btn32 As Button
     Friend WithEvents btn31 As Button
+    Friend WithEvents ScoreX As Label
+    Friend WithEvents ScoreO As Label
+    Friend WithEvents btn13 As Button
+    Friend WithEvents lblRound1 As Label
+    Friend WithEvents lblGiliran1 As Label
+    Friend WithEvents lblTime As Label
 End Class

@@ -10,3 +10,15 @@ C:\Users\ASUS\OneDrive - Duta Wacana Christian University\Documents\6th semester
 C:\Users\ASUS\OneDrive - Duta Wacana Christian University\Documents\6th semester\Pemrograman Desktop\source\repos\TikTakToe\TikTakToe\obj\Debug\TikTakToe.exe
 C:\Users\ASUS\OneDrive - Duta Wacana Christian University\Documents\6th semester\Pemrograman Desktop\source\repos\TikTakToe\TikTakToe\obj\Debug\TikTakToe.xml
 C:\Users\ASUS\OneDrive - Duta Wacana Christian University\Documents\6th semester\Pemrograman Desktop\source\repos\TikTakToe\TikTakToe\obj\Debug\TikTakToe.pdb
+C:\Users\ASUS\OneDrive - Duta Wacana Christian University\Documents\6th semester\Pemrograman Desktop\source\repos\Game-TikTakToe\TikTakToe\bin\Debug\TikTakToe.exe.config
+C:\Users\ASUS\OneDrive - Duta Wacana Christian University\Documents\6th semester\Pemrograman Desktop\source\repos\Game-TikTakToe\TikTakToe\bin\Debug\TikTakToe.exe
+C:\Users\ASUS\OneDrive - Duta Wacana Christian University\Documents\6th semester\Pemrograman Desktop\source\repos\Game-TikTakToe\TikTakToe\bin\Debug\TikTakToe.pdb
+C:\Users\ASUS\OneDrive - Duta Wacana Christian University\Documents\6th semester\Pemrograman Desktop\source\repos\Game-TikTakToe\TikTakToe\bin\Debug\TikTakToe.xml
+C:\Users\ASUS\OneDrive - Duta Wacana Christian University\Documents\6th semester\Pemrograman Desktop\source\repos\Game-TikTakToe\TikTakToe\obj\Debug\TikTakToe.vbproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive - Duta Wacana Christian University\Documents\6th semester\Pemrograman Desktop\source\repos\Game-TikTakToe\TikTakToe\obj\Debug\TikTakToe.Form1.resources
+C:\Users\ASUS\OneDrive - Duta Wacana Christian University\Documents\6th semester\Pemrograman Desktop\source\repos\Game-TikTakToe\TikTakToe\obj\Debug\TikTakToe.Resources.resources
+C:\Users\ASUS\OneDrive - Duta Wacana Christian University\Documents\6th semester\Pemrograman Desktop\source\repos\Game-TikTakToe\TikTakToe\obj\Debug\TikTakToe.vbproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive - Duta Wacana Christian University\Documents\6th semester\Pemrograman Desktop\source\repos\Game-TikTakToe\TikTakToe\obj\Debug\TikTakToe.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive - Duta Wacana Christian University\Documents\6th semester\Pemrograman Desktop\source\repos\Game-TikTakToe\TikTakToe\obj\Debug\TikTakToe.exe
+C:\Users\ASUS\OneDrive - Duta Wacana Christian University\Documents\6th semester\Pemrograman Desktop\source\repos\Game-TikTakToe\TikTakToe\obj\Debug\TikTakToe.xml
+C:\Users\ASUS\OneDrive - Duta Wacana Christian University\Documents\6th semester\Pemrograman Desktop\source\repos\Game-TikTakToe\TikTakToe\obj\Debug\TikTakToe.pdb
